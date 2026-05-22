@@ -15,10 +15,7 @@ Esse repositório pode conter scripts, APIs e/ou ferramentas para buscar informa
 
 ## Tecnologias utilizadas
 
-- Linguagem principal: `Python` (ou outra, se for o caso — ajuste aqui).
-- Bibliotecas comuns: `requests`, `pandas` (opcional), `tqdm` (opcional), etc.
-- (Se usar) Banco de dados: `SQLite` / `PostgreSQL` / `MongoDB`.
-- (Se usar) Framework web: `Flask` / `FastAPI`.
+- Linguagem principal: `Python`.
 
 ---
 
@@ -43,13 +40,6 @@ Esse repositório pode conter scripts, APIs e/ou ferramentas para buscar informa
    pip install -r requirements.txt
    ```
 
-4. Configure tokens de API (se necessário).  
-   Copie o arquivo de exemplo:
-   ```bash
-   cp .env.example .env
-   ```
-   E edite `.env` com suas chaves (ex: `API_KEY=...`).
-
 ---
 
 ## Como usar
@@ -70,8 +60,6 @@ Exemplos de uso:
   - `http://localhost:5000/search?title=The+Dark+Knight`
 - Listar filmes por nota mínima:
   - `http://localhost:5000/movies?min_rating=7.5`
-
-(Testes e exemplos específicos devem ser ajustados conforme o que seu código realmente faz.)
 
 ---
 
